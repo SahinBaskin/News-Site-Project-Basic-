@@ -46,7 +46,7 @@ p {
     margin: .5rem 0;
 }
 
-/* utils */
+/* UTILS */
 .container {
     max-width: var(--max-width);
     margin: 0 auto;
@@ -126,7 +126,7 @@ p {
 }
 
 
-/* navbar */
+/* NAVBAR */
 #main-nav {
     background-color: #fff;
     position: sticky;
@@ -167,10 +167,14 @@ p {
 }
 
 #main-nav .social-icons {
+    font-size: 28px;
     justify-self: end;
 }
+#main-nav .social-icons i:hover {
+    opacity: .8;
+}
 
-/* header */
+/* HEADER */
 #header {
     color: #fff;
     background: #333;
@@ -200,14 +204,20 @@ p {
     z-index: 2;
 }
 
-/* articles */
+/* ARTICLES */
 #main-articles .articles-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
+#main-articles .container .articles-container img:hover{
+    opacity: .8;
+}
+#main-articles .container .articles-container div h3 a:hover{
+    color: var(--primary-color);
+}
 
-/* footer */
+/* FOOTER */
 #main-footer {
     background-color: var(--dark-color);
     color: #fff;
@@ -253,8 +263,13 @@ p {
 #main-footer .footer-container ul li a:hover {
     color: var(--primary-color);
 }
-
-/* article details */
+#main-footer i{
+    font-size: 28px;
+}
+#main-footer i:hover{
+    opacity: .8;
+}
+/* ARTICLES DETAILS */
 .page-container {
     display: grid;
     grid-template-columns: 5fr 2fr;
