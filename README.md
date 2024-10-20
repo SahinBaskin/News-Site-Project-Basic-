@@ -1,6 +1,7 @@
 Project: News Website
 
 This project is a news website that I created using my basic web development skills. 
+
 I utilized only HTML and CSS to design a user-friendly and aesthetically pleasing interface.
 
 Features:
